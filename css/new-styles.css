@@ -19,13 +19,6 @@
     padding: 1px 22px;
 }
 
-.header-nav-inner {
-    background-color: 303030;
-}
-
-.header-nav-toggle+.header-nav ul a:not(.button) {
-color: #cbcbcb;
-}
 
 
 
@@ -408,6 +401,15 @@ section.contact-anchor {
     display: block;
     width: 100%;
     margin-bottom: 80px;
+}
+
+
+.header-nav-inner {
+    background-color: #303030;
+}
+
+.header-nav-toggle+.header-nav ul a:not(.button) {
+color: #cbcbcb;
 }
 
 
