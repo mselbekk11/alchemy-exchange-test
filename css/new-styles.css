@@ -357,6 +357,14 @@ p.subtitle {
   #desktop-logo {display: none;}
   #mobile-logo {display: block;}
 
+  section.anchor {
+    margin-bottom: 150px;
+}
+
+/* p.subtitle {
+    margin-bottom: 15px!important;
+} */
+
   }
 
   @media only screen and (max-width: 550px) {
