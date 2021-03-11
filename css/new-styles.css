@@ -3,6 +3,10 @@
     background-color: transparent;
 } */
 
+
+#desktop-logo {display: block;}
+#mobile-logo {display: none;}
+
 .site-header-inner {
     height: 70px;
 }
@@ -347,6 +351,13 @@ p.subtitle {
 
   }
 
+  @media only screen and (max-width: 640px) {
+
+
+  #desktop-logo {display: none;}
+  #mobile-logo {display: block;}
+
+  }
 
   @media only screen and (max-width: 550px) {
 
