@@ -359,6 +359,10 @@ p.subtitle {
         font-size: 18px;
     }
 
+    h6, .h6, small, .text-sm {
+        font-size: 9px;
+    }
+
   }
 
 
