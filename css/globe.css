@@ -29,7 +29,7 @@
   }
   
   .pulse {
-    animation: pulse-animation 4s infinite;
+    animation: pulse-animation 3s infinite;
   }
   
   @keyframes pulse-animation {
@@ -44,7 +44,7 @@
   }
 
   .pulseyy {
-    animation: pulse-animationyyy 4s infinite;
+    animation: pulse-animationyyy 3s infinite;
   }
   
   @keyframes pulse-animationyyy {
