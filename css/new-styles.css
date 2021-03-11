@@ -361,6 +361,10 @@ p.subtitle {
     margin-bottom: 150px;
 }
 
+.section-inner.globe {
+    padding-top: 18px!important;
+}
+
 /* p.subtitle {
     margin-bottom: 15px!important;
 } */
