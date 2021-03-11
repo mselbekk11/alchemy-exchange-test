@@ -19,6 +19,16 @@
     padding: 1px 22px;
 }
 
+.header-nav-inner {
+    background-color: 303030;
+}
+
+.header-nav-toggle+.header-nav ul a:not(.button) {
+color: #cbcbcb;
+}
+
+
+
 
 
 .navigation {
@@ -82,7 +92,7 @@
 
 section.anchor {
     width: 100%;
-    margin-bottom: 220px;
+    margin-bottom: 200px;
 }
 
 
@@ -177,12 +187,13 @@ p.about {
 
 
 .row-three img {
-    width: 150px;
+    width: 350px;
     /* -webkit-box-shadow: -5px 4px 10px -1px rgba(176,176,176,1);
 -moz-box-shadow: -5px 4px 10px -1px rgba(176,176,176,1);
 box-shadow: -5px 4px 10px -1px rgba(176,176,176,1); */
     
 }
+
 
 
 
