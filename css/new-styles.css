@@ -363,6 +363,8 @@ p.subtitle {
         font-size: 9px;
     }
 
+    .hero-content br {display: none;}
+
   }
 
 
