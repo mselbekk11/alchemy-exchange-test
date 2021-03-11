@@ -85,6 +85,7 @@ section.anchor {
     margin-bottom: 220px;
 }
 
+
 .section-inner.globe {
     padding-bottom: 0px!important;
 }
@@ -212,6 +213,9 @@ h2.token {
 
 
 
+section.contact-anchor {
+    display: none;
+}
 
 
 
@@ -371,7 +375,7 @@ p.title {
 
 .section-inner.paper {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 0px!important;
 }
 
 .tabs li {
@@ -381,6 +385,12 @@ p.title {
 h2.contact {
     padding-top: 80px!important;
     margin-bottom: 80px!important;
+}
+
+section.contact-anchor {
+    display: block;
+    width: 100%;
+    margin-bottom: 80px;
 }
 
 
