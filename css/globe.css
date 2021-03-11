@@ -231,16 +231,21 @@
 	animation: float 6s ease-in-out infinite;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 910px) {
 
 #desktop-globe {display: none;}
 #mobile-globe {display: block;}
 
 .circle {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   /* border-radius: 50%;
   box-shadow: 0px 0px 1px 1px #0000001a; */
 }
+
+}
+
+@media only screen and (max-width: 550px) {
+
 
 }
