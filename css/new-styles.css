@@ -373,6 +373,10 @@ p.title {
     padding-top: 80px;
 }
 
+.tabs li {
+    width: 50%;
+}
+
 
   }
 
@@ -388,7 +392,7 @@ p.title {
     }
 
     h6, .h6, small, .text-sm {
-        font-size: 7px;
+        font-size: 9px;
     }
 
     .hero-content br {display: none;}
