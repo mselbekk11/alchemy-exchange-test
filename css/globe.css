@@ -1,0 +1,228 @@
+
+
+  .red{
+    background:transparent;
+}
+  
+
+  .center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    /* width: 896px;
+    height: 504px; */
+  }
+  
+  /* .circle.red {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+  } */
+
+  .circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+  }
+  
+  .pulse {
+    animation: pulse-animation 4s infinite;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+      /* box-shadow: 0 0 0 0px rgba(102, 143, 255, 0.3); */
+      /* box-shadow: 0 0 0 0px rgba(102, 143, 255, 0.3); */
+    }
+    100% {
+      box-shadow: 0 0 0 50px rgba(0, 0, 0, 0);
+    }
+  }
+
+  .pulseyy {
+    animation: pulse-animationyyy 4s infinite;
+  }
+  
+  @keyframes pulse-animationyyy {
+    0% {
+      /* box-shadow: 0 0 0 0px rgba(209, 86, 86, 0.7); */
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      /* box-shadow: 0 0 0 30px rgba(150, 48, 48, 0); */
+      box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+    }
+  }
+
+  .zero {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    background-color:#478FE3;
+  }
+
+  .zero.one{
+    top: 200px;
+    left: 561px;
+    position: absolute;
+  }
+
+
+  .pulse-one {
+    animation: pulse-animation-one 3s infinite;
+  }
+
+  @keyframes pulse-animation-one {
+    0% {
+      /* box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2); */
+            box-shadow: 0 0 0 0px rgba(102, 143, 255, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+  }
+
+
+
+  .pulse-two {
+    animation: pulse-animation-two 5s infinite;
+  }
+
+  @keyframes pulse-animation-two {
+    0% {
+      /* box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2); */
+            box-shadow: 0 0 0 0px rgba(102, 143, 255, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+  }
+
+
+
+
+  .zero.two{
+    top: 136px;
+    left: 339px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+  }
+
+  .zero.three{
+    top: 260px;
+    left: 400px;
+    position: absolute;
+    /* width: 15px;
+    height: 15px; */
+  }
+
+  .zero.four{
+    top: 56px;
+    left: 512px;
+    position: absolute;
+  }
+
+  .zero.five{
+    top: 260px;
+    left: 592px;
+    position: absolute;
+  }
+
+  .zero.six{
+    top: 200px;
+    left: 275px;
+    position: absolute;
+    /* width: 15px;
+    height: 15px; */
+  }
+
+
+
+  .dotted-line.one {
+    top: 98px;
+    left: 541px;
+    position: absolute;
+  }
+
+  .dotted-line.two {
+    top: 124px;
+    left: 213px;
+    position: absolute;
+  }
+
+  .dotted-line.three {
+    top: -63px;
+    left: 351px;
+    position: absolute;
+  }
+
+ 
+  /* .zero {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    background-color:#478FE3;
+  }
+
+  .zero.one{
+    top: 180px;
+    left: 570px;
+    position: absolute;
+  } */
+
+
+  @keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-7px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+
+
+.alchemy.uno {
+    top: 72px;
+    left: 338px;
+    position: absolute;
+    transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+}
+
+.alchemy.dos {
+    top: 137px;
+    left: 481px;
+    position: absolute;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.alchemy.tres {
+    top: 242px;
+    left: 318px;
+    position: absolute;
+    transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+}
+
+.alchemy.quatro {
+    top: 287px;
+    left: 564px;
+    position: absolute;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
