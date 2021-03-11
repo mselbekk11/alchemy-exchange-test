@@ -365,9 +365,14 @@ p.subtitle {
     padding-top: 18px!important;
 }
 
-/* p.subtitle {
-    margin-bottom: 15px!important;
-} */
+p.title {
+    margin-bottom: 50px;
+}
+
+.section-inner.paper {
+    padding-top: 80px;
+}
+
 
   }
 
@@ -383,7 +388,7 @@ p.subtitle {
     }
 
     h6, .h6, small, .text-sm {
-        font-size: 9px;
+        font-size: 7px;
     }
 
     .hero-content br {display: none;}
