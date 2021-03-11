@@ -194,11 +194,11 @@
                         <div class="row-contact reveal-from-bottom" data-reveal-delay="300">
 
                             <!-- <form name="submit-to-google-sheet" id="my-form"> -->
-                                <form method="post" action="form.php">
-                                <input id="name" name="name" type="text" placeholder="First Name" required>
-                                <input id="lastname" name="lastname" type="text" placeholder="Last Name" required>
-                                <input id="email" name="email" type="email" placeholder="Email" required>
-                                <textarea id="message" placeholder="Message" type="message" type="email" name="message"></textarea>
+                                <form method="post" action="form.php" name="contact" method="POST" data-netlify="true">
+                                    <label><input id="name" name="name" type="text" placeholder="First Name" required></label>
+                                    <label><input id="lastname" name="lastname" type="text" placeholder="Last Name" required></label>
+                                    <label><input id="email" name="email" type="email" placeholder="Email" required></label>
+                                    <label><textarea id="message" placeholder="Message" type="message" type="email" name="message"></textarea></label>
                                 <button class="press" type="submit">Send</button>
                               </form> 
 
